@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+backend/venv/
+backend/.venv/
+venv/
+.venv/
+env/
+ENV/
+
+# Node modules & build files
+frontend/node_modules/
+frontend/dist/
+node_modules/
+dist/
+.vite/
+
+# Large Model Weights (YOLO)
+*.pt
+model/yolov8m.pt
+backend/models/yolov8m.pt
+backend/model/yolov8m.pt
+
+# Uploads & Temp files
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# IDEs & System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
